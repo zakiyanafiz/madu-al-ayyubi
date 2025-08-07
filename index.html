@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madu Asli - Toko Madu Berkualitas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Madu Asli</div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#testimonials">Testimoni</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Madu Asli Berkualitas Tinggi</h1>
+            <p>Rasakan khasiat madu murni langsung dari sarang lebah</p>
+            <a href="#products" class="cta-button">Beli Sekarang</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Produk Kami</h2>
+        <div class="product-grid" id="product-container">
+            <!-- Products will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Tentang Kami</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Kami adalah peternak madu profesional yang berkomitmen menyediakan madu asli dan berkualitas tinggi. Madu kami dipanen langsung dari hutan alami tanpa campuran bahan kimia.</p>
+                <ul>
+                    <li>💯 100% Madu Asli</li>
+                    <li>🌿 Tanpa Bahan Pengawet</li>
+                    <li>🐝 Dipanen Secara Alami</li>
+                    <li>🏆 Kualitas Terjamin</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Tentang Madu Kami">
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>Apa Kata Pelanggan</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p>"Madu yang sangat enak dan asli. Keluarga saya sangat menyukainya!"</p>
+                <div class="testimonial-author">- Budi, Jakarta</div>
+            </div>
+            <div class="testimonial-card">
+                <p>"Pelayanan cepat dan madu sangat berkualitas. Akan beli lagi!"</p>
+                <div class="testimonial-author">- Siti, Bandung</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Hubungi Kami</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Informasi Kontak</h3>
+                <p><i class="fas fa-phone"></i> +62 123 4567 890</p>
+                <p><i class="fas fa-envelope"></i> info@maduasli.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Madu Raya No. 123, Jakarta</p>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Nama" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Madu Asli</h3>
+                <p>Menyediakan madu asli berkualitas tinggi langsung dari peternakan kami.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Link Cepat</h3>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Madu Asli. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
